@@ -15,7 +15,7 @@ const Shop = ({ addToCart, shopItems }) => {
               <div className="heading-left row  f_flex">
                 <h2>Mobile Phones</h2>
               </div>
-              <div className="heading-right row ">
+              <div className="heading-right ">
                 <span>View all</span>
                 <i className="fa-solid fa-caret-right"></i>
               </div>

@@ -1,0 +1,205 @@
+.pd-page {
+    padding: 20px;
+}
+
+.pd-top {
+    display: flex;
+    padding: 10px 0;
+}
+
+.pd-t-left {
+    width: 55%;
+    height: 35rem;
+    display: flex;
+}
+
+.pd-tl {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.pd-tl img {
+    height: 25%;
+    padding: 10px 15px;
+}
+
+.pd-tr {
+    width: 70%;
+}
+
+.pd-tr img {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.pd-t-right {
+    width: 40%;
+    padding: 10px 35px;
+}
+
+/* .pd-trr-t,
+.pd-trr-m,
+.pd-trr-b {
+    height: 32%;
+} */
+
+.pd-price {
+    font-weight: 300;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.pd-text {
+    padding-top: 3px;
+    margin-right: 15px;
+}
+
+.pd-color {
+    display: flex;
+    font-size: 25px;
+}
+
+.pd-color .pd-color-pic {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 8px 5px;
+    cursor: pointer;
+}
+
+.pd-size {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pd-size-pic {
+    width: 35px;
+    height: 30px;
+    margin: 8px 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: 2px solid rgba(177, 175, 175, 0.505);
+    border-radius: 5px;
+}
+
+.pd-btns,
+.pd-qty {
+    display: flex;
+}
+
+.pd-btns {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.pd-btns-q {
+    width: 30%;
+}
+
+.pd-qty {
+    border-radius: 5px;
+    border: 2px solid rgba(177, 175, 175, 0.505);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qty-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    font-size: 33px;
+    background-color: #e94560;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.qty-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    font-size: 30px;
+}
+
+.pd-btns-q .btn-primary {
+    cursor: pointer;
+}
+
+.pd-btns-b {
+    width: 40%;
+}
+
+.pd-btns-b .btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.pd-btns-l {
+    width: 10%;
+    cursor: pointer;
+}
+
+.like-btn {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    background-color: #e94560;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pd-trr-b{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid rgb(178, 177, 177);
+    border-radius: 5px;
+}
+
+.pd-btns-b .btn-primary{
+    margin: 0 8px;
+}
+
+.pd-trr-bt{
+    display: flex;
+}
+
+.pd-trr-bt i{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.pd-bt-t{
+    padding-left: 10px;
+}
+
+
+.pd-bottom{
+    padding: 20px 0;
+}
+
+.pd-bottom-title{
+    border-left: 5px solid #e94560;
+    font-size: 25px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.pd-bottom-items{
+    padding: 35px 10px;
+}

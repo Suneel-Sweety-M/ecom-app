@@ -7,6 +7,13 @@ import Data from "./components/Data";
 import ShopData from "./components/ShopData";
 import { useState } from "react";
 import Cart from "./pages/Cart";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import ProductDetail from "./pages/ProductDetail";
+import PageNotFound from "./pages/PageNotFound";
+import Contact from "./pages/Contact";
+import Profile from "./pages/Profile";
+import CheckOut from "./pages/CheckOut";
 
 function App() {
   const { productItems } = Data;
@@ -58,6 +65,9 @@ function App() {
             />
           }
         />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/product/:id" element={<ProductDetail />} />
         <Route
           path="/cart"
           element={
@@ -68,8 +78,12 @@ function App() {
             />
           }
         />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/checkout" element={<CheckOut />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }
